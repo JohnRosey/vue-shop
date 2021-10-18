@@ -37,7 +37,7 @@
                   </thead>
 
                   <tbody>
-                      <tr v-for="product in products">
+                      <tr v-for="product in products" :key="product">
                         <td>
                           {{product.name}}
                         </td>
@@ -98,7 +98,7 @@
                       <input type="text" @keyup.188="addTag" placeholder="Product tags" v-model="tag" class="form-control">
                       
                       <div  class="d-flex">
-                        <p v-for="tag in product.tags">
+                        <p v-for="tag in product.tags" :key="tag">
                             <span class="p-1">{{tag}}</span>
                         </p>
 

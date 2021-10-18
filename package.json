@@ -29,9 +29,21 @@
     "babel-eslint": "^10.0.1",
     "eslint": "^5.8.0",
     "eslint-plugin-vue": "^5.0.0-0",
-    "node-sass": "^4.9.0",
+    "node-sass": "^4.14.1",
     "sass-loader": "^7.0.1",
     "sweetalert2": "^8.2.6",
     "vue-template-compiler": "^2.5.17"
-  }
+  },
+  "description": "A Youtube video series where web build a practical e-commerce web app with vuejs and firebase. (Don't just watch the video, do it practically)",
+  "main": ".eslintrc.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hujjat/vue-shop.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hujjat/vue-shop/issues"
+  },
+  "homepage": "https://github.com/Hujjat/vue-shop#readme"
 }

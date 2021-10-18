@@ -4,11 +4,11 @@
           <h1 class="text-center p-5">Our Products List</h1>
           <div class="row">
               
-              <div class="col-md-4" v-for="product in products">
+              <div class="col-md-4" v-for="product in products" :key="product">
                   <div class="card product-item">
 
                         <carousel :perPage="1">
-                          <slide v-for="(image, index) in product.images">
+                          <slide v-for="(image, index) in product.images" :key="index">
                                 <img :src="image" class="card-img-top" alt="..." width="250px">
                           </slide>
                         </carousel>
